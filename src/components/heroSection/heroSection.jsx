@@ -26,7 +26,8 @@ const HeroSection = () => {
           </div>
           <div className="col-6 d-none d-sm-block mob-d-none position-relative   d-flex justify-content-end">
             <div className="col-9 position-absolute end-0">
-              <img className="w-100" src={men_img}></img>
+              <img className="w-100" src={men_img}
+              alt="hero"></img>
             </div>
           </div>
         </div>
