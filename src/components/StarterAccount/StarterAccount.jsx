@@ -6,8 +6,8 @@ import cross_img from "../../assets/images/icon-cross.png";
 const StarterAccount = () => {
   return (
     <div>
-      <div className="container cursor-pointer">
-        <div className="my-3 box-shadow">
+      <div className="container  cursor-pointer">
+        <div className="my-3 box-shadow border-curve2">
           <div className="bg-blue border-curve py-2">
             <div>
               <p className="text-md text-white text-center">
