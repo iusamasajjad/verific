@@ -10,7 +10,7 @@ const Header = () => {
   const [sideNav, setSideNav] = useState(false);
   return (
     <>
-      <div className="d-flex d-none d-sm-block main-header container">
+      <div className="d-flex d-none d-sm-block mob-d-none container">
         <div className="z-10 position-absolute start-0 end-0 top-0 mt-5">
           <div className="d-flex  container align-items-center">
             <div className="col-3">

@@ -1,5 +1,4 @@
 import React from "react";
-import account_img from "../../assets/images/Acounts.png";
 
 const OurPlan = () => {
   return (
@@ -22,10 +21,6 @@ const OurPlan = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div className="d-flex justify-content-center">
-          <img className="w-75" src={account_img}
-          alt="account"></img>
         </div>
       </div>
     </>

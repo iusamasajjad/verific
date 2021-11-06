@@ -3,23 +3,18 @@ body {
   margin: 0;
   font-family: "britannic-bold-regular", sans-serif !important;
 }
-
+/* =============== navbar styling =================== */
 .main-nav nav ul {
   list-style: none;
 }
-.cursor-pointer {
-  cursor: pointer;
-}
-.hover:hover {
-  color: #b6c7d9 !important;
-  transition: 0.5s;
-}
+
+/* ============ background-images =============*/
 
 .hero-bg-img {
-  background-image: url("../images/hero.bg-1.png");
+  background-image: url("../images/Hero-bg.png");
   background-repeat: no-repeat;
   min-height: 700px;
-  background-size: cover;
+  background-size: 75%;
 }
 
 .business-img {
@@ -27,6 +22,13 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+}
+.pattern-img {
+  background-image: url("../images/pattern-large.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50px;
+  width: 100%;
 }
 
 .technology-bg {
@@ -38,11 +40,22 @@ body {
 
 /* ============= common classes ================ */
 
+/* =========== all-common-colors-of-website ======= */
 .bg-blue {
   background-image: linear-gradient(288deg, #011d50, #0b4180) !important;
 }
 .bg-white {
   background-color: #fff !important;
+}
+.bg-gray {
+  background-color: #8f8f8f;
+}
+.border-blue {
+  border: 2px solid #0b4180 !important;
+  border-radius: 0px 0px 10px 10px;
+}
+.border-curve {
+  border-radius: 10px 10px 0px 0px;
 }
 
 .text-blue {
@@ -60,10 +73,15 @@ body {
 .bg-pink {
   background-color: #f04168 !important;
 }
+
+/* =========== all-common-colors-of-website-end ======= */
 .primary-button {
   padding: 5px 15px !important;
   font-size: 18px !important;
   font-weight: normal !important;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 
 /* =========== font-sizes ============= */
@@ -85,18 +103,7 @@ body {
 
 /* =========== font-end ============= */
 
-.mr {
-  bottom: 0px;
-  right: 60px !important;
-}
-.z-10 {
-  z-index: 10;
-}
-.vertical-line {
-  width: 4px;
-  height: 80px;
-}
-
+/* =========== vertical-&-horizental-lines =============== */
 .horizental-line {
   width: 80px;
   height: 4px;
@@ -105,9 +112,74 @@ body {
   width: 25px;
   height: 3px;
 }
+.horizental-full-line {
+  width: 100%;
+  height: 1px;
+}
+.vertical-line {
+  width: 4px;
+  height: 80px;
+}
+/* =========== vertical-&-horizental-lines-end =============== */
+
+/* ============== hover-effect-styling ============== */
+.hover:hover {
+  color: #b6c7d9 !important;
+  transition: 0.5s;
+}
+.popup-width {
+  transition-timing-function: ease-in-out;
+  transition: 0.2s;
+}
+.popup-width:hover {
+  transform: scale(1.05);
+}
+/* ============== hover-effect-styling-end ============== */
+
+/* ============== common-spaces ============== */
+.mr {
+  bottom: 0px;
+  right: 60px !important;
+}
+.z-10 {
+  z-index: 10;
+}
+
+.z-1 {
+  z-index: -1;
+}
+.right-space {
+  right: 90px;
+}
+.left-space {
+  left: 90px;
+}
+.box-shadow {
+  box-shadow: 0 0 30px 0 rgb(9 2 45 / 60%);
+}
 /* ============ mobile-responsive ============= */
+@media (max-width: 479px) and (min-width: 320px) {
+  .hero-bg-img {
+    background-size: cover;
+  }
+  .position-unset {
+    position: unset !important;
+  }
+}
+@media (max-width: 567px) and (min-width: 480px) {
+  .hero-bg-img {
+    background-size: cover;
+  }
+  .position-unset {
+    position: unset !important;
+  }
+}
+
 @media (max-width: 684px) and (min-width: 568px) {
-  .main-header {
+  .hero-bg-img {
+    background-size: cover;
+  }
+  .mob-d-none {
     display: none !important;
   }
   .hamburgar {
@@ -124,10 +196,16 @@ body {
   }
   .technology-para {
     width: 100%;
+  }
+  .position-unset {
+    position: unset !important;
   }
 }
 @media (max-width: 767px) and (min-width: 685px) {
-  .main-header {
+  .hero-bg-img {
+    background-size: cover;
+  }
+  .mob-d-none {
     display: none !important;
   }
   .hamburgar {
@@ -144,10 +222,16 @@ body {
   }
   .technology-para {
     width: 100%;
+  }
+  .position-unset {
+    position: unset !important;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
-  .main-header {
+  .hero-bg-img {
+    background-size: cover;
+  }
+  .mob-d-none {
     display: none !important;
   }
   .hamburgar {
@@ -164,5 +248,8 @@ body {
   }
   .technology-para {
     width: 100%;
+  }
+  .position-unset {
+    position: unset !important;
   }
 }
