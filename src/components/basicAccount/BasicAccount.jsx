@@ -7,7 +7,7 @@ const BasicAccount = () => {
   return (
     <div className="popup-width">
       <div className="container cursor-pointer">
-        <div className="my-3 position-relative z-1 position-unset box-shadow right-space">
+        <div className="my-3  box-shadow">
           <div className="bg-blue border-curve py-2">
             <div>
               <p className="text-md text-white text-center">

@@ -7,7 +7,7 @@ const StarterAccount = () => {
   return (
     <div>
       <div className="container cursor-pointer">
-        <div className="my-3 position-relative box-shadow position-unset z-1 left-space">
+        <div className="my-3 box-shadow">
           <div className="bg-blue border-curve py-2">
             <div>
               <p className="text-md text-white text-center">
