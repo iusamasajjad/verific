@@ -1,5 +1,5 @@
 import React from "react";
-import footer_img from "../../assets/images/footer-logo.png";
+import logo from "../../assets/images/verific-logo.png";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="bg-blue">
         <div className="d-flex flex-column flex-sm-row py-4 text-align-center justify-content-between align-items-center container">
           <div>
-            <img src={footer_img}
+            <img src={logo}
             alt="logo"></img>
           </div>
           <div className="py-3 py-sm-1">

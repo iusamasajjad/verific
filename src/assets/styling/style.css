@@ -14,7 +14,7 @@ body {
   background-image: url("../images/Hero-bg.png");
   background-repeat: no-repeat;
   min-height: 700px;
-  background-size: 75%;
+  background-size: 70%;
 }
 
 .business-img {
@@ -245,3 +245,8 @@ body {
     position: unset !important;
   }
 }
+@media (max-width: 1199px) and (min-width: 1024px) { 
+  .hero-bg-img {
+    background-size: 76%;
+  }
+} 
